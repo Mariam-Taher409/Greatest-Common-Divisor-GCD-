@@ -1,0 +1,9 @@
+#GCD requirements
+FSM representation of the algorithm, with meaningful state names and output control signals to
+the datapath.
+If you intend to optimize the resulting FSM, show it before and after the optimization.
+• Sketch of the datapath module and how the control signals affect it.
+• RTL implementation of the controller, datapath, and the top module that combines them
+(gcd_controller.v, gcd_datapath.v, and gcd_top.v). Don’t limit yourself to these modules, create
+as many sub-modules as you see fit.
+• Simple testbench that checks the results for at least 2 sets of inputs.
